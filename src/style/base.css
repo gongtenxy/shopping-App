@@ -1,0 +1,28 @@
+/* 项目通用样式 */
+/* barker字体图标 */
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+  font-family: 'iconfont';  /* Project id 3869563 */
+  src: url('//at.alicdn.com/t/c/font_3869563_62332poo99d.woff2?t=1675077950244') format('woff2'),
+       url('//at.alicdn.com/t/c/font_3869563_62332poo99d.woff?t=1675077950244') format('woff'),
+       url('//at.alicdn.com/t/c/font_3869563_62332poo99d.ttf?t=1675077950244') format('truetype');
+}
+html {
+	font-size: 0.2666vw;
+}
+
+body {
+	font-family: iconfont;
+	font-size: 12rem;
+}
+input{
+  border: none;
+  outline: none;
+}
+button{
+  border: none;
+}
+a{
+  text-decoration: none;
+  --webkit-tap-heighlight-color:transparent;
+}
